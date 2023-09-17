@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolProjectWithCleanArchitecture.Data\SchoolProjectWithCleanArchitecture.Data.csproj" />
+    <ProjectReference Include="..\SchoolProjectWithCleanArchitecture.Infrastructure\SchoolProjectWithCleanArchitecture.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
